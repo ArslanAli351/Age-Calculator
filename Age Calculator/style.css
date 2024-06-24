@@ -1,0 +1,183 @@
+*{
+    background-color: #84d2c9;
+}
+
+
+.main{
+    border: 1px solid rgb(240, 243, 171);
+    height: 350px;
+    width: 50%;
+    margin-left: 270px;
+    margin-top: 90px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     box-shadow: 10px 10px 5px #b1bab9;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDQ0NDg8NDg8NDQ0ODw0PDQ8PDw0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EACgQAQABAwIFBAMBAQAAAAAAAAABEVFhIZEScaGx8DFBgcEC0eHxE//EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD2xAAEAKpUACqAAICoqAAAAAAAAAogCgApVAGoaYhqAaCFBEaSYBAAQJAEABAAQAEAAAAAAAAAAAAABQAAAElQVqGYWAbj9qkNQAkqgIiyyBISAyCAAgBUQFEAUQBQQFEAUEBRFAABQAFhAFlFQBqGYusA3DUSxEqDdUlCZAllZQCRJUGUEAEJkAAAAAAAAAAFQUEABSBYAAAFAECQFhMANKyoNfsZj2UCS5+yQSVJAYlBJAQAAAAAFQBUAFEAUAAABYRYBQAWFmD8VkGQoAkphrKAR2Psp7XX6Bb4I+kiFuBZQABQckEkCUAAAAFBFAACAAAFQBQAUhFgFABqGpYbgGBQEMgAqLFwFslFAABYABxqggAUweegHnqHnobgBtubAVUrnuAAAAAAAKgCgA0ACtQxDcAgH0CGFygGFMGAUABUUAAHAPRKgfJ89zTOxTIHz3KZKRfoaZ2A0zsmmV0yaZA0yfJp5BQAKnQFEXyoAKCCgEAAqpCwCwqKAfYf4AmVwAZDJFwURQFRQAAcJrCTOF1hK4gDTJpnY0tO5pkDTOyaZ2XTOxpnYE0yumdjS87f0pF+gFMpReHlulKAsSFblLAeUXlslSlv6CwqVWAA+CvMFCAFVnqsApAAoefABJgyAKmFABQAABaIDhrF0riGtYvDNeWwFYt1NM7wVi3U0zuBpk0vOyaZXS/QCkX6FMwUzHU4eW4HDP8AmqRJMLxeSBXGxw21NORTyAK31KW/pW+/utLAVuFfJAKcl1v1Tz0UD56qixgDosIvPYFA8kF8+D7PvsV/gH0ZKe26doBYABVRQFRQAAcNYvCcXLZdYvCcXLYErFusmmd1rFuqaZ6SBSLzslIv0laRfocOY6gcOY3OGbfacM4n5gpMe0gVoteRxT/upWLbaAacikx+4KRfcpMfsCtymd9Ct420IiL7guseaFcQRE+3SV1z8wCVi3Vaxbqa26Qa26AsYg5pznqacwWMbrHknPY6R3A8mV7e2U7d17+0WA8lc7JjeVzsCYup3kwAsIAqooAAAAONZOLlPwgBWLdSkZQBeGLxtJ/zkAZ/L8aESALxcp+CsWpyAFj8a+k1TWMABxXj6NMwALH42mFj8J8kAXgnyUn8byAGmZ6LGNAA6rOfUAXuY9/eQA7QudgAAAFAUAAAAAH/2Q==");
+
+}
+
+input{
+    width: 20%;
+    height: 40px;
+    border: 1px solid #eeb23a;
+text-align: center;
+border-radius: 18px 18px;
+background-color: #ffffff;
+
+}
+
+h1{
+    margin-top: 50px;
+    position: fixed;
+    margin-left: 360px;
+    background-color: rgb(249, 244, 244);
+    font-size: 40px;
+}
+
+
+button{
+    margin-top: 10px;
+    height: 50px;
+    width: 30%;
+    border-radius: 50px;
+    border: 1px solid #278cc2;
+    background-color: #4fb3e8;
+
+}
+.but{
+    background-color: rgb(249, 244, 244);
+    margin-top: 150px;
+    width: 20%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+justify-content: space-evenly;
+position: fixed;
+}
+.head{
+    background-color: rgb(249, 244, 244);
+    width: 60%;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+h3{
+    width: 30%;
+    height: 30px;
+    height: 50px;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: -30px;
+    background-color: rgb(249, 244, 244);
+color: #f60909;
+   
+}
+h2{
+    width: 30%;
+    height: 30px;
+    height: 40px;
+    margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-top: -60px;
+    background-color: rgb(249, 244, 244);
+color: #048025;
+   
+}
+
+
+@media screen and (max-width: 530px){
+
+    .main{
+        height:450px ;
+        width: 95%;
+       margin-left: -2px;
+        margin-right: 0px; 
+        margin-top: -5px;
+    }
+    button{
+width: 35%;
+    }
+
+    .but{
+width: 60%;
+
+    }
+    .head{
+width: 90%;
+height: 80px;
+    }
+    h3{
+margin-right: 96px;
+width: 60%;
+margin-top: -70px;
+background-color: #f9f4f4;
+
+    }
+    h2{
+        margin-right: 96px;
+        width: 60%;
+        margin-top: -70px;  
+        background-color: #f9f4f4;
+
+    }
+
+h1{
+        margin-top: 50px;
+    position: fixed;
+    margin-left: 70px;
+    font-size: 30px;
+    width: 60%;
+}
+
+
+
+}
+
+@media screen and (max-width: 360px){
+
+h3{
+        background-color: #f9f4f4;
+    margin-right: 60px;
+}
+
+h2{
+font-size: 28px;
+margin-right: 60px;
+background-color: #f9f4f4;
+
+}
+
+}
+
+ /* @media screen and (max-width: 930px){
+    .main{
+        margin-left: 130px;
+    }
+h1{
+margin-left: 170px;
+width: 40%;
+font-size: 35px;
+}
+h3{
+margin-left: 190px;
+margin-top: -40px;
+}
+.head{
+width: 90%;
+}
+.but{
+width: 40%;
+}
+h2{
+margin-left: 190px;
+margin-top: -56px;
+
+}
+}  */
